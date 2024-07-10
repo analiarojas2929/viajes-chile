@@ -37,7 +37,7 @@ body {
 }
 
 .carousel-inner img {
-    height: 950px;
+    height: 550px;
     object-fit: cover;
 }
 
