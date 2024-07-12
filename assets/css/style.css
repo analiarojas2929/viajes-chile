@@ -65,13 +65,6 @@ p {
     color: #fff;
 }
 
-@media (max-width: 768px) {
-    .content-box {
-        width: 100%;
-        margin: 10px 0;
-    }
-}
-
 section h2 {
     font-weight: 700;
     margin-bottom: 30px;
@@ -129,4 +122,50 @@ footer a:hover {
 
 .social-links li a:hover {
     transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .content-box {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+.custom-card {
+    background-color: #35bcd3;
+    border-color: #898989;
+    width: 100%;
+    /* Asegúrate de que las tarjetas ocupen el 100% del contenedor en dispositivos móviles */
+    margin: 10px 0;
+    /* Ajusta el margen para dispositivos móviles */
+}
+
+
+/* Media Query para pantallas más pequeñas */
+
+@media (max-width: 768px) {
+    .custom-card {
+        margin: 20px 0;
+        /* Margen superior e inferior más grande para separar las tarjetas en dispositivos móviles */
+    }
+}
+
+
+/* Media Query para tablets */
+
+@media(min-width: 768px) and (max-width: 1024px) {
+    .custom-card {
+        margin: 15px;
+        /* Margen ajustado para tablets */
+    }
+}
+
+
+/* Media Query para pantallas grandes */
+
+@media(min-width: 1025px) {
+    .custom-card {
+        margin: 10px;
+        /* Margen estándar para pantallas grandes */
+    }
 }
