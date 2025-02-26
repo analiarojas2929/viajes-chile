@@ -141,7 +141,6 @@ footer a:hover {
 }
 
 
-/* Media Query para pantallas más pequeñas */
 
 @media (max-width: 768px) {
     .custom-card {
